@@ -8,7 +8,9 @@ Build docker image to run IntelliJ IDEA as a GUI application in the container.
 
 ## Build the image
 mv ideaIC-2021.1.1.tar.gz Docker_IntelliJ_GUI/
+
 cd Docker_IntelliJ_GUI/
+
 docker build -t imagename:v1 .
 
 ## Launch the image to run the application
